@@ -174,21 +174,11 @@ export const PRODUCTS: Product[] = [
     gallerySpan: "tall",
   },
   {
-    id: "sodium-saccharin",
-    name: "Sodium Saccharin",
-    category: "sweeteners",
-    description:
-      "Food-grade sodium saccharin, a cost-effective high-intensity sweetener suited to beverages, table sweeteners and a broad range of foods.",
-    applications: ["Beverages", "Table Sweeteners", "Food Processing"],
-    image: "/images/sodium-saccharin.png",
-    gallerySpan: "normal",
-  },
-  {
     id: "sodium-cyclamate",
     name: "Sodium Cyclamate",
     category: "sweeteners",
     description:
-      "Food-grade sodium cyclamate, a stable non-nutritive sweetener frequently blended with saccharin for balanced sweetness in beverages and foods.",
+      "Food-grade sodium cyclamate, a stable non-nutritive sweetener delivering balanced sweetness for beverages and a broad range of foods.",
     applications: ["Beverages", "Confectionery", "Food Processing"],
     image: "/images/sodium-cyclamate.png",
     gallerySpan: "normal",
