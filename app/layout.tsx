@@ -49,14 +49,6 @@ export const metadata: Metadata = {
       'Leading importer and distributor of food-grade additives, preservatives, sweeteners and flavours across Nigeria and West Africa.',
     images: ['/images/warehouse.jpg'],
   },
-  icons: {
-    icon: [
-      { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },
-      { url: '/icon-dark-32x32.png', media: '(prefers-color-scheme: dark)' },
-      { url: '/icon.svg', type: 'image/svg+xml' },
-    ],
-    apple: '/apple-icon.png',
-  },
 }
 
 export const viewport: Viewport = {
