@@ -34,6 +34,7 @@ export const COMPANY = {
   phoneHref: "tel:+2348101203653",
   email: "gfaekeson@gmail.com",
   whatsappNumber: WHATSAPP_NUMBER, // international format, no "+" or spaces
+  wechat: "+8613886099006",
   address: "Lagos, Nigeria",
 } as const
 
