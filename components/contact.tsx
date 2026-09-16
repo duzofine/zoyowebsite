@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, type FormEvent } from "react"
-import { Mail, MapPin, Phone, MessageCircle, Send, CheckCircle2 } from "lucide-react"
+import { Mail, MapPin, Phone, MessageCircle, MessagesSquare, Send, CheckCircle2 } from "lucide-react"
 import { COMPANY, PRODUCTS, createWhatsAppLink } from "@/lib/site-data"
 import { SectionHeading } from "@/components/section-heading"
 import { Reveal } from "@/components/reveal"
@@ -16,6 +16,7 @@ const CONTACT_CARDS = [
     href: createWhatsAppLink(),
     external: true,
   },
+  { icon: MessagesSquare, label: "WeChat", value: COMPANY.wechat },
   { icon: MapPin, label: "Location", value: COMPANY.address },
 ]
 
